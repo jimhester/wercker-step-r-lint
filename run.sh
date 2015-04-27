@@ -2,7 +2,7 @@
 
 run_script () {
   temp_file=$(mktemp -t "XXXXXXXXXX.R")
-  cat $1 > $temp_file
+  cat > "$temp_file"
   Rscript "$temp_file"
   if [[ $? -ne 0 ]]; then
     fail "Script $temp_file failed!"
