@@ -1,0 +1,8 @@
+name: r-lint
+version: 0.0.1
+description: R package linting
+properties:
+  options:
+    type: string
+    required: false
+    default: ""
