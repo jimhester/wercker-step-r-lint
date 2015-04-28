@@ -15,7 +15,7 @@ if (!requireNamespace("devtools", quietly = TRUE)) {
   install.packages("devtools")
 }
 devtools::install_github("jimhester/lintr")
-install()
+devtools::install()
 lintr::lint_package($WERCKER_R_LINT_OPTIONS)
 END
 

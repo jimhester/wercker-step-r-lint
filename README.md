@@ -35,6 +35,9 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 # Changelog
 
+## 0.0.3
+- Fix bug with installing package.
+
 ## 0.0.2
 - Need to install the package to be linted before linting.
 
