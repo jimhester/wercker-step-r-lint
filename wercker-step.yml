@@ -1,6 +1,8 @@
 name: r-lint
 version: 0.0.3
 description: R package linting
+keywords:
+  - r
 properties:
   options:
     type: string

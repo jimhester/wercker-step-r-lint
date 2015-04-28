@@ -1,4 +1,4 @@
-# r-check
+# r-lint
 [![wercker status](https://app.wercker.com/status/c42b1a62c9b98cd4d8f37c4179f9efee/s "wercker status")](https://app.wercker.com/project/bykey/c42b1a62c9b98cd4d8f37c4179f9efee)
 
 A step to run a lintr on an R package.  Best used with one of the
